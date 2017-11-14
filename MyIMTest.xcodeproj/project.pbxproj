@@ -7,15 +7,45 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		9C71B7E81FB53341006F3E51 /* SobotKit.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9C71B7E61FB53340006F3E51 /* SobotKit.bundle */; };
+		9C71B7E91FB53341006F3E51 /* ZCEmojiExpression.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9C71B7E71FB53340006F3E51 /* ZCEmojiExpression.bundle */; };
+		9C71B7EB1FB53389006F3E51 /* KeFuSDK.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 9C71B7EA1FB53388006F3E51 /* KeFuSDK.bundle */; };
 		9C8E40071FB460200024AB50 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8E40061FB460200024AB50 /* AppDelegate.m */; };
 		9C8E400A1FB460200024AB50 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8E40091FB460200024AB50 /* ViewController.m */; };
 		9C8E400D1FB460200024AB50 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C8E400B1FB460200024AB50 /* Main.storyboard */; };
 		9C8E400F1FB460200024AB50 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9C8E400E1FB460200024AB50 /* Assets.xcassets */; };
 		9C8E40121FB460200024AB50 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9C8E40101FB460200024AB50 /* LaunchScreen.storyboard */; };
 		9C8E40151FB460200024AB50 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9C8E40141FB460200024AB50 /* main.m */; };
+		9C8E536E1FB467FE0024AB50 /* AudioToolbox.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C8E536D1FB467FE0024AB50 /* AudioToolbox.framework */; };
+		9C8E53701FB468080024AB50 /* AssetsLibrary.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C8E536F1FB468080024AB50 /* AssetsLibrary.framework */; };
+		9C8E53721FB468130024AB50 /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C8E53711FB468130024AB50 /* SystemConfiguration.framework */; };
+		9C8E53741FB4681B0024AB50 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C8E53731FB4681B0024AB50 /* AVFoundation.framework */; };
+		9C8E53761FB4682C0024AB50 /* libz.1.2.5.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C8E53751FB4682B0024AB50 /* libz.1.2.5.tbd */; };
+		9C8E537A1FB4688C0024AB50 /* UserNotifications.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9C8E53791FB4688C0024AB50 /* UserNotifications.framework */; };
+		9CDC5B2D1FBAE569009DC3D7 /* SobotKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9CDC5B2A1FBAE560009DC3D7 /* SobotKit.framework */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		9CDC5B291FBAE560009DC3D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9CDC5B251FBAE560009DC3D7 /* SobotKit.xcodeproj */;
+			proxyType = 2;
+			remoteGlobalIDString = 7BB21FA01C005611003539F7;
+			remoteInfo = SobotKit;
+		};
+		9CDC5B2B1FBAE565009DC3D7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9CDC5B251FBAE560009DC3D7 /* SobotKit.xcodeproj */;
+			proxyType = 1;
+			remoteGlobalIDString = 7BB21F9F1C005611003539F7;
+			remoteInfo = SobotKit;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		9C71B7E61FB53340006F3E51 /* SobotKit.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = SobotKit.bundle; sourceTree = "<group>"; };
+		9C71B7E71FB53340006F3E51 /* ZCEmojiExpression.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = ZCEmojiExpression.bundle; sourceTree = "<group>"; };
+		9C71B7EA1FB53388006F3E51 /* KeFuSDK.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; path = KeFuSDK.bundle; sourceTree = "<group>"; };
 		9C8E40021FB460200024AB50 /* MyIMTest.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyIMTest.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		9C8E40051FB460200024AB50 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		9C8E40061FB460200024AB50 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -26,6 +56,13 @@
 		9C8E40111FB460200024AB50 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		9C8E40131FB460200024AB50 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9C8E40141FB460200024AB50 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9C8E536D1FB467FE0024AB50 /* AudioToolbox.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AudioToolbox.framework; path = System/Library/Frameworks/AudioToolbox.framework; sourceTree = SDKROOT; };
+		9C8E536F1FB468080024AB50 /* AssetsLibrary.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AssetsLibrary.framework; path = System/Library/Frameworks/AssetsLibrary.framework; sourceTree = SDKROOT; };
+		9C8E53711FB468130024AB50 /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		9C8E53731FB4681B0024AB50 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		9C8E53751FB4682B0024AB50 /* libz.1.2.5.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.1.2.5.tbd; path = usr/lib/libz.1.2.5.tbd; sourceTree = SDKROOT; };
+		9C8E53791FB4688C0024AB50 /* UserNotifications.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UserNotifications.framework; path = System/Library/Frameworks/UserNotifications.framework; sourceTree = SDKROOT; };
+		9CDC5B251FBAE560009DC3D7 /* SobotKit.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = SobotKit.xcodeproj; path = SobotKit/SobotKit.xcodeproj; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -33,6 +70,13 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9CDC5B2D1FBAE569009DC3D7 /* SobotKit.framework in Frameworks */,
+				9C8E537A1FB4688C0024AB50 /* UserNotifications.framework in Frameworks */,
+				9C8E53761FB4682C0024AB50 /* libz.1.2.5.tbd in Frameworks */,
+				9C8E53741FB4681B0024AB50 /* AVFoundation.framework in Frameworks */,
+				9C8E53721FB468130024AB50 /* SystemConfiguration.framework in Frameworks */,
+				9C8E53701FB468080024AB50 /* AssetsLibrary.framework in Frameworks */,
+				9C8E536E1FB467FE0024AB50 /* AudioToolbox.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -42,8 +86,10 @@
 		9C8E3FF91FB460200024AB50 = {
 			isa = PBXGroup;
 			children = (
+				9CDC5B251FBAE560009DC3D7 /* SobotKit.xcodeproj */,
 				9C8E40041FB460200024AB50 /* MyIMTest */,
 				9C8E40031FB460200024AB50 /* Products */,
+				9C8E53661FB461FE0024AB50 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -71,6 +117,30 @@
 			path = MyIMTest;
 			sourceTree = "<group>";
 		};
+		9C8E53661FB461FE0024AB50 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9C71B7EA1FB53388006F3E51 /* KeFuSDK.bundle */,
+				9C71B7E61FB53340006F3E51 /* SobotKit.bundle */,
+				9C71B7E71FB53340006F3E51 /* ZCEmojiExpression.bundle */,
+				9C8E53791FB4688C0024AB50 /* UserNotifications.framework */,
+				9C8E53751FB4682B0024AB50 /* libz.1.2.5.tbd */,
+				9C8E53731FB4681B0024AB50 /* AVFoundation.framework */,
+				9C8E53711FB468130024AB50 /* SystemConfiguration.framework */,
+				9C8E536F1FB468080024AB50 /* AssetsLibrary.framework */,
+				9C8E536D1FB467FE0024AB50 /* AudioToolbox.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		9CDC5B261FBAE560009DC3D7 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9CDC5B2A1FBAE560009DC3D7 /* SobotKit.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -85,6 +155,7 @@
 			buildRules = (
 			);
 			dependencies = (
+				9CDC5B2C1FBAE565009DC3D7 /* PBXTargetDependency */,
 			);
 			name = MyIMTest;
 			productName = MyIMTest;
@@ -113,10 +184,17 @@
 			knownRegions = (
 				en,
 				Base,
+				"zh-Hans",
 			);
 			mainGroup = 9C8E3FF91FB460200024AB50;
 			productRefGroup = 9C8E40031FB460200024AB50 /* Products */;
 			projectDirPath = "";
+			projectReferences = (
+				{
+					ProductGroup = 9CDC5B261FBAE560009DC3D7 /* Products */;
+					ProjectRef = 9CDC5B251FBAE560009DC3D7 /* SobotKit.xcodeproj */;
+				},
+			);
 			projectRoot = "";
 			targets = (
 				9C8E40011FB460200024AB50 /* MyIMTest */,
@@ -124,13 +202,26 @@
 		};
 /* End PBXProject section */
 
+/* Begin PBXReferenceProxy section */
+		9CDC5B2A1FBAE560009DC3D7 /* SobotKit.framework */ = {
+			isa = PBXReferenceProxy;
+			fileType = wrapper.framework;
+			path = SobotKit.framework;
+			remoteRef = 9CDC5B291FBAE560009DC3D7 /* PBXContainerItemProxy */;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+/* End PBXReferenceProxy section */
+
 /* Begin PBXResourcesBuildPhase section */
 		9C8E40001FB460200024AB50 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9C71B7E91FB53341006F3E51 /* ZCEmojiExpression.bundle in Resources */,
+				9C71B7EB1FB53389006F3E51 /* KeFuSDK.bundle in Resources */,
 				9C8E40121FB460200024AB50 /* LaunchScreen.storyboard in Resources */,
 				9C8E400F1FB460200024AB50 /* Assets.xcassets in Resources */,
+				9C71B7E81FB53341006F3E51 /* SobotKit.bundle in Resources */,
 				9C8E400D1FB460200024AB50 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -149,6 +240,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9CDC5B2C1FBAE565009DC3D7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SobotKit;
+			targetProxy = 9CDC5B2B1FBAE565009DC3D7 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		9C8E400B1FB460200024AB50 /* Main.storyboard */ = {
@@ -279,8 +378,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X634X4Y33S;
+				ENABLE_ONLY_ACTIVE_RESOURCES = NO;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/MyIMTest";
 				INFOPLIST_FILE = MyIMTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-licucore",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.dengyun.MyIMTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -292,8 +399,16 @@
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = X634X4Y33S;
+				ENABLE_ONLY_ACTIVE_RESOURCES = NO;
+				HEADER_SEARCH_PATHS = "$(PROJECT_DIR)/MyIMTest";
 				INFOPLIST_FILE = MyIMTest/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				OTHER_LDFLAGS = (
+					"-all_load",
+					"-licucore",
+					"-ObjC",
+				);
 				PRODUCT_BUNDLE_IDENTIFIER = com.dengyun.MyIMTest;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
