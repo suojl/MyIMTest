@@ -1,0 +1,39 @@
+//
+//  SobotKit.pch
+//  SobotKit
+//
+//  Created by zhangxy on 15/11/21.
+//  Copyright © 2015年 zhichi. All rights reserved.
+//
+
+#ifndef SobotKit_h
+#define SobotKit_h
+
+
+#import "ZCUITools.h"
+#import "ZCLibCommon.h"
+#import "ZCUITipsDefine.h"
+#import "ZCUIToastTools.h"
+
+#import "ZCLogUtils.h"
+
+
+/**
+ *  控制日志输出
+ *
+ *  @param ...
+ *
+ *  @return
+ */
+//#ifndef __OPTIMIZE__
+//
+//#define NSLog(fmt,...) NSLog((@"%s [Line %d] \n" fmt ), __PRETTY_FUNCTION__, __LINE__, ##__VA_ARGS__)
+//
+//#else
+
+//#define NSLog(...) {}
+
+//#endif
+
+
+#endif /* SobotKit_h */
